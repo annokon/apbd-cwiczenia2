@@ -5,3 +5,13 @@ Console.WriteLine("Modyfikacja1");
 Console.WriteLine("Modyfikacja2");
 Console.WriteLine("Modyfikacja3");
 Console.WriteLine("Modyfikacja3.2");
+
+static double GetAverage(int[] numbers) {
+    int sum = 0;
+    foreach (var number in numbers) {
+        sum += number;
+    }
+
+    return (double)sum / numbers.Length;
+}
+
