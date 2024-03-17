@@ -8,8 +8,8 @@ Console.WriteLine("Modyfikacja3.2");
 
 static double GetAverage(int[] numbers) {
     int suma = 0;
-    foreach (var number in numbers) {
-        suma += number;
+    foreach (var num in numbers) {
+        suma += num;
     }
 
     return (double)suma / numbers.Length;
